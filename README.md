@@ -25,6 +25,11 @@ Follow these steps to set up the project:
 
 To run the application, press the Play button in Unity. If you have a VR headset connected, you should be able to interact with the VR environment.
 
+
+pkg - 
+com.unity.xr.management
+
+
 ## Contributing
 
 We welcome and appreciate contributions from the community. If you would like to contribute, please fork the repository, make your changes, and submit a pull request.

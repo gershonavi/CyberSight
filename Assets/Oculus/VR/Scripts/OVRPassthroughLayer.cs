@@ -29,6 +29,14 @@ using ColorMapType = OVRPlugin.InsightPassthroughColorMapType;
 /// </summary>
 public class OVRPassthroughLayer : MonoBehaviour
 {
+
+    // Add this property
+    public float ColorLutWeight
+    {
+        get { return _colorLutHandler.Weight; }
+        set { _colorLutHandler.Weight = value; }
+    }
+
     #region Public Interface
 
     /// <summary>
